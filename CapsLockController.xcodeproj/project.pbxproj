@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47208E4921ED334F0065FD2D /* libCapsLockController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1E35D21ED28E100EBD0CE /* libCapsLockController.a */; };
 		47E1E36121ED28E100EBD0CE /* CapsLockController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E1E36021ED28E100EBD0CE /* CapsLockController.h */; };
 		47E1E36321ED28E100EBD0CE /* CapsLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E1E36221ED28E100EBD0CE /* CapsLockController.m */; };
+		47EC050D21ED31CD00C39A33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EC050C21ED31CD00C39A33 /* AppDelegate.m */; };
+		47EC050F21ED31CE00C39A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EC050E21ED31CE00C39A33 /* Assets.xcassets */; };
+		47EC051221ED31CE00C39A33 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EC051021ED31CE00C39A33 /* MainMenu.xib */; };
+		47EC051521ED31CE00C39A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EC051421ED31CE00C39A33 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47E1E35D21ED28E100EBD0CE /* libCapsLockController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCapsLockController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E1E36021ED28E100EBD0CE /* CapsLockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CapsLockController.h; sourceTree = "<group>"; };
 		47E1E36221ED28E100EBD0CE /* CapsLockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapsLockController.m; sourceTree = "<group>"; };
+		47EC050921ED31CD00C39A33 /* CapsLockControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapsLockControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EC050B21ED31CD00C39A33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47EC050C21ED31CD00C39A33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47EC050E21ED31CE00C39A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47EC051121ED31CE00C39A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47EC051321ED31CE00C39A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EC051421ED31CE00C39A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47EC051621ED31CE00C39A33 /* CapsLockControllerExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapsLockControllerExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +38,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47EC050621ED31CD00C39A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47208E4921ED334F0065FD2D /* libCapsLockController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -32,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				47E1E35F21ED28E100EBD0CE /* CapsLockController */,
+				47EC050A21ED31CD00C39A33 /* CapsLockControllerExample */,
 				47E1E35E21ED28E100EBD0CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				47E1E35D21ED28E100EBD0CE /* libCapsLockController.a */,
+				47EC050921ED31CD00C39A33 /* CapsLockControllerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +74,20 @@
 				47E1E36221ED28E100EBD0CE /* CapsLockController.m */,
 			);
 			path = CapsLockController;
+			sourceTree = "<group>";
+		};
+		47EC050A21ED31CD00C39A33 /* CapsLockControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				47EC050B21ED31CD00C39A33 /* AppDelegate.h */,
+				47EC050C21ED31CD00C39A33 /* AppDelegate.m */,
+				47EC050E21ED31CE00C39A33 /* Assets.xcassets */,
+				47EC051021ED31CE00C39A33 /* MainMenu.xib */,
+				47EC051321ED31CE00C39A33 /* Info.plist */,
+				47EC051421ED31CE00C39A33 /* main.m */,
+				47EC051621ED31CE00C39A33 /* CapsLockControllerExample.entitlements */,
+			);
+			path = CapsLockControllerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +121,23 @@
 			productReference = 47E1E35D21ED28E100EBD0CE /* libCapsLockController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		47EC050821ED31CD00C39A33 /* CapsLockControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EC051921ED31CE00C39A33 /* Build configuration list for PBXNativeTarget "CapsLockControllerExample" */;
+			buildPhases = (
+				47EC050521ED31CD00C39A33 /* Sources */,
+				47EC050621ED31CD00C39A33 /* Frameworks */,
+				47EC050721ED31CD00C39A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapsLockControllerExample;
+			productName = CapsLockControllerExample;
+			productReference = 47EC050921ED31CD00C39A33 /* CapsLockControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +150,9 @@
 					47E1E35C21ED28E100EBD0CE = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					47EC050821ED31CD00C39A33 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 47E1E35821ED28E100EBD0CE /* Build configuration list for PBXProject "CapsLockController" */;
@@ -104,6 +161,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 47E1E35421ED28E100EBD0CE;
 			productRefGroup = 47E1E35E21ED28E100EBD0CE /* Products */;
@@ -111,9 +169,22 @@
 			projectRoot = "";
 			targets = (
 				47E1E35C21ED28E100EBD0CE /* CapsLockController */,
+				47EC050821ED31CD00C39A33 /* CapsLockControllerExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EC050721ED31CD00C39A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EC050F21ED31CE00C39A33 /* Assets.xcassets in Resources */,
+				47EC051221ED31CE00C39A33 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47E1E35A21ED28E100EBD0CE /* Sources */ = {
@@ -124,7 +195,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47EC050521ED31CD00C39A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EC051521ED31CE00C39A33 /* main.m in Sources */,
+				47EC050D21ED31CD00C39A33 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47EC051021ED31CE00C39A33 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EC051121ED31CE00C39A33 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		47E1E36421ED28E100EBD0CE /* Debug */ = {
@@ -260,6 +351,42 @@
 			};
 			name = Release;
 		};
+		47EC051721ED31CE00C39A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CapsLockControllerExample/CapsLockControllerExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3RCH9CUHQ4;
+				INFOPLIST_FILE = CapsLockControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jvansickle.CapsLockControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47EC051821ED31CE00C39A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CapsLockControllerExample/CapsLockControllerExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3RCH9CUHQ4;
+				INFOPLIST_FILE = CapsLockControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jvansickle.CapsLockControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -277,6 +404,15 @@
 			buildConfigurations = (
 				47E1E36721ED28E100EBD0CE /* Debug */,
 				47E1E36821ED28E100EBD0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EC051921ED31CE00C39A33 /* Build configuration list for PBXNativeTarget "CapsLockControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EC051721ED31CE00C39A33 /* Debug */,
+				47EC051821ED31CE00C39A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
