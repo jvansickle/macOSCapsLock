@@ -87,6 +87,7 @@
     }
     
     IOServiceClose(ioc);
+    return 0;
 }
 
 @end
