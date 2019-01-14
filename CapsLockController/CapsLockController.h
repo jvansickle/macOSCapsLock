@@ -10,4 +10,6 @@
 
 @interface CapsLockController : NSObject
 
+- (int) setCapsLockTo: (int)onOrOff;
+
 @end
